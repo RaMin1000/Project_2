@@ -1,0 +1,171 @@
+* {
+    cursor: context-menu;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header img{
+    width: 150px;
+}
+.nav ul{
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 25px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+   background-color: #406a97;
+   border-radius: 3px;
+   color: white;
+}
+.opened_div{
+    display: none;
+}
+main{
+    background-color: #6595c8;
+    height: 333px;
+}
+form{
+    width: 690px;
+    height: 330px;
+    margin: 0 auto;
+}
+form label{
+    display: block;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+input{
+    width: 230px;
+    height: 26px;
+}
+#nacalnaya_summa_vklada{
+    margin-left: 115px;
+}
+#procentnaya_stavka{
+    margin-left: 171px;
+}
+#srok_vklada{
+    margin-left: 176px;
+}
+#popolnenie{
+    margin-left: 10px;
+}
+.rascitat{
+    width: 90%;
+    height: 35px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    border-radius: 5px;
+    margin-left: 35px;
+    margin-top: 20px;
+    border: 2px solid black;    
+}
+.rascitat:hover{
+    background-color: #205295;
+    color: white;
+    border: none;
+}
+#summa_na_konec{
+    color: white;   
+}
+.img_1{
+    width: 280px;
+    position: relative;
+    bottom: 170px;
+    border-radius: 15px;
+}
+.img_2{
+    width: 280px;
+    position: relative;
+    bottom: 170px;
+    border-radius: 15px;
+    left: 55.3%;
+}
+.footer{
+    background-color: #406a97;
+    display: flex;
+}
+.footer_div_1 {
+    justify-content: center;
+    width: 280px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.footer h2{
+    color: white;
+    letter-spacing: 0.05em;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+.footer p{
+    color: white;
+    font-size: 20px;
+}
+.footer_div_1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.img_3{
+    width: 700px;
+    border-radius: 15px;
+    height: 140px;
+}
+.div_2_a{
+    position: absolute;
+    font-size: 17px;
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    left: 310px;
+    bottom: 60px;
+    border-radius: 15px;
+}
+.footer_div_2{
+    display: block;
+}
+.footer_div_3{
+    justify-content: center;
+    width: 280px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.footer_div_3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.play_apple{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.img_4{
+    width: 110px;
+    border-radius: 15px;
+}

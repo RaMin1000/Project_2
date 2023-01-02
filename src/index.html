@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>PROJECT_2</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="https://abb-bank.az/" target="_blank">
+                <img src="img/ABB.png" alt="">
+            </a>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="https://abb-bank.az/az/haqqimizda/missiya-ve-strateji-baxis" target="_blank"">About US</a>
+                    </li>
+                    <li>
+                        <a href="tel:937" target="_blank">Contacts</a>
+                    </li>
+                    <li><a href="https://abb-bank.az/az/internet-bankchiliq" target="_blank">Internet Banking</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <form>
+                <label>Начальная сумма вклада ($)
+                    <input type="text" id="nacalnaya_summa_vklada" class="i" min="1" max="1234567" step="1">
+                </label>
+                <label>Срок вклада (месяцев)
+                    <input type="text" class="i" id="srok_vklada">
+                </label>
+                <label>Процентная ставка (%)
+                    <input type="text" class="i" id="procentnaya_stavka">
+                </label>
+                <label>Сумма ежемесячного пополнения ($)
+                    <input type="text" class="l_i" id="popolnenie" >
+                </label>
+                <button type="button"  class="rascitat">Расчитать</button>
+                
+                <div id="finish">
+                    <label class="labels_fin">Сумма на конец периода
+                        <span type="text" id="summa_na_konec" style="border: 2px solid palegoldenrod;"></span>$
+                    </label>
+                    <label class="labels_fin">Сумма пополнения
+                        <span type="text" id="summa_popolneniya" style="border: 2px solid palegoldenrod;"></span>$
+                    </label>
+                    <label class="labels_fin">Начисленные проценты %
+                        <span type="text" id="nac_procenti" style="border: 2px solid palegoldenrod;"></span>$
+                    </label>
+                </div>
+            </form>
+                <img class="img_1" src="img/1596110413_kartlar - tekliflerimiz.webp" alt="">
+                <img class="img_2" src="img/1594975734_kreditler (2).webp" alt="">
+        </main>
+        <footer class="footer">
+            <div class="footer_div_1">
+                <h2>
+                    Kartlar
+                </h2>
+                <center>
+               <p>
+                ABB-dən debet və kredit, status və eksklüziv, virtual, taksit və başqa kartlar. Nağdsız ödənişlərin üstünlüklərindən faydalanın.
+               </p>
+                <a href="https://abb-bank.az/az/ferdi/kartlar" target="_blank">
+                < Daha ətraflı >
+               </a>
+               </center>
+            </div>  
+            <div class="footer_div_2"> 
+                <img  class="img_3" src="img/partnor.png" alt="">    
+                <a class="div_2_a" href="https://tamkart.az/index.php/page/partners" target="_blank">
+                    < Daha ətraflı >
+                </a>
+                <div class="play_apple">
+                    <a href="https://apps.apple.com/az/app/iba-mobile/id1251456175" target="_blank">
+                    <img class="img_4" src="img/apple.png" alt="apple">
+                    </a>
+                <a href="https://play.google.com/store/apps/details?id=iba.mobilbank" target="_blank">
+                    <img class="img_4" src="img/play.png" alt="play" >
+                </a> 
+                <a href="https://appgallery.huawei.com/app/C105078433">
+                    <img class="img_4" src="img/galary.png" alt="">
+                </a>
+                </div>
+            </div>
+            <div class="footer_div_3" >
+                <h2>
+                    Kreditlər
+                </h2>
+                <center>
+               <p>
+                ABB-dən sərfəli kreditlər. Əməkhaqqı və pensiya kartlarımızın sahiblərinə özəl endirimlər.
+               </p>
+                <a href="https://abb-bank.az/az/ferdi/kreditler" target="_blank">
+                < Daha ətraflı >
+               </a>
+               </center>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
